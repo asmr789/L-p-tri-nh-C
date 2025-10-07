@@ -9,6 +9,8 @@ int main() {
 	int d = (number / 1000) % 10; // 2
 	int e = number / 10000;
 	
-	int reverse;
+	int reverse = a * 10000 + b * 1000 + c * 100 + d * 10 + e;
+	
+	printf(" %d",reverse);
 	return 0;
 }
