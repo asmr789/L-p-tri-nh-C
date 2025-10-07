@@ -1,18 +1,14 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
-int main(){
-	
-	int a = 10;
-	int b = 10; 
-	int c = 10;
-	int s;
-	
-	s = (sqrt((a*a)+(b*b)) / (c+1)) 
-	+ ((a*b) - c) 
-	- sqrt((abs(a-b) + (c*c)));
-	
-	printf("%d",s);
-	
-	return 0;
+int main() {
+    int a =3;
+    int b =4;
+    int c =2;
+
+    float S = sqrt(pow(a, 2) + pow(b, 2)) / (c + 1)   +   (a * b) / c    -    sqrt(abs(a - b) + pow(c, 2));
+
+    printf("S: %.2f\n", S);
+
+    return 0;
 }
